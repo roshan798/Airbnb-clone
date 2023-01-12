@@ -15,6 +15,11 @@
   <body>
     <nav>
       <div id="logo">
+        <img
+          src="https://cdn.icon-icons.com/icons2/2699/PNG/512/airbnb_logo_icon_170605.png"
+          alt=""
+          class="logo-sm"
+        />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="329.775 439.999 320.426 100.002"
@@ -29,7 +34,7 @@
         <div class="right-border links">Anywhere</div>
         <div class="right-border links">Any week</div>
         <div class="links">Add guests</div>
-        <div id="search-icon" class="icon">
+        <div id="search-icon" class="icon links">
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
       </div>
@@ -38,6 +43,39 @@
         <div class="links"><i class="fa-solid fa-globe"></i></div>
         <div id="profile-icon" class="links">
           <i class="fa-solid fa-circle-user"></i>
+        </div>
+      </div>
+      <!-- div for smaller devices -->
+      <div class="select-container-sm">
+        <div id="search-icon" class="icon links">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="filter-icon">
+          <svg
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            role="presentation"
+            focusable="false"
+            style="
+              display: block;
+              height: 16px;
+              width: 16px;
+              fill: rgb(34, 34, 34);
+            "
+          >
+            <path
+              d="M5 8c1.306 0 2.418.835 2.83 2H14v2H7.829A3.001 3.001 0 1 1 5 8zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6-8a3 3 0 1 1-2.829 4H2V4h6.17A3.001 3.001 0 0 1 11 2zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
+            ></path>
+          </svg>
+        </div>
+        <div class="mini-container">
+          <p class="">Where to?</p>
+          <ul>
+            <li><a href="#">Anywhere</a></li>
+            <li><a href="#">Any week</a></li>
+            <li><a href="#">Add guests</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -406,9 +444,9 @@
         <div class="right">
           <ul>
             <li>
-              <i class="fa-solid fa-globe"></i>₹<a href="#">English (IN)</a>
+              <i class="fa-solid fa-globe"></i> <a href="#"> English (IN)</a>
             </li>
-            <li>₹<a href="#">INR</a></li>
+            <li>₹ <a href="#">INR</a></li>
             <li><a href="">Support & resources</a></li>
           </ul>
         </div>
